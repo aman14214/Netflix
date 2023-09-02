@@ -1,0 +1,113 @@
+body{
+    padding: 0px;
+    margin: 0px;
+/* box-sizing: border-box; */
+ overflow-y: hidden;
+}
+ .root{
+    background-image: url("netflix.jpg");
+    /* background-image: linear-gradien(black green black); */
+    opacity: 0.9;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+
+
+ }
+.img{
+width: 14%;
+color: red;
+ position: relative;
+ left:25px;
+}
+ .nav{
+    padding-top: 1%;
+     /* padding-left: 2vw;  */
+     padding-right: 8vw; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     height: 10vh;
+      flex-direction: row;
+       opacity: 1;
+ }
+ .btn{
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 5px;
+     height: 6vh;
+     width: 80px;
+     position: relative;
+     left: -14px;
+
+ }
+  .main{
+width: 100%;
+height: 90vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  }
+   .title{
+   color: white;
+    text-align: center;
+    justify-content: center;
+   }
+    .a{
+        font-size: 3.2rem;
+         margin-bottom: 14px;
+    }
+     .b{
+        font-family: Arial, Helvetica, sans-serif;
+         font-size: 1.5rem;
+          margin-bottom: 30px;
+     }
+.c{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+ .email{
+    width: 55%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+     border-radius: 5px;
+ }
+  .user{
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+   .btnget{
+    cursor: pointer;
+    padding: 18px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    background-color: red;
+     font-size: 1.4rem;
+      text-transform: uppercase;
+       text-align: center;
+       padding-right: 30px;
+        border-radius: 5px;
+   }
+   
+   .btnget:hover{
+    background-color: rgb(205, 76, 76);
+   }
+   .shadow{
+    position: fixed;
+     width: 100vw;
+      height: 100vh;
+      opacity: 1;
+       background-color: black;
+       z-index: 1000;
+       background-image: linear-gradien(black white black);
+   }
